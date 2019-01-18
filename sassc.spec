@@ -40,11 +40,11 @@ mv sass-spec-%{testspec_version} sass-spec
 
 %build
 autoreconf -fi
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %if %{with tests}
 %check
