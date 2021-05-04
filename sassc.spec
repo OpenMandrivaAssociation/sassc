@@ -4,8 +4,8 @@
 
 Summary:	Wrapper around libsass to compile CSS stylesheet
 Name:		sassc
-Version:	3.5.0
-Release:	2
+Version:	3.6.1
+Release:	1
 License:	MIT
 Group:		Development/Tools
 Url:		http://github.com/sass/sassc
@@ -35,7 +35,7 @@ application that can be installed and packaged for several operating systems.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -a 1
+%autosetup -p1 -a 1
 mv sass-spec-%{testspec_version} sass-spec
 
 %build
