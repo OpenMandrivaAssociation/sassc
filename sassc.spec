@@ -8,7 +8,7 @@ Version:	3.6.2
 Release:	2
 License:	MIT
 Group:		Development/Tools
-Url:		http://github.com/sass/sassc
+Url:		https://github.com/sass/sassc
 Source0:	https://github.com/sass/sassc/archive/%{name}-%{version}.tar.gz
 # Test suite spec. According to this comment from an upstream dev, we should
 # not use the release tags on the test spec:
