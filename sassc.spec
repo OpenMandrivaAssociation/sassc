@@ -18,6 +18,11 @@ Source0:	https://github.com/sass/sassc/archive/%{name}-%{version}.tar.gz
 Source1:	sass-spec-%{testspec_version}.tar.gz
 # libsass is built as a shared library.
 #Patch0:		sassc-3.4.8-build.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libsass) >= %{version}
 %if %{with tests}
 BuildRequires:	ruby
